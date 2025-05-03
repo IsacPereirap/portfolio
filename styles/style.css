@@ -23,8 +23,9 @@ body{
     
 }
 
-.cabeçalho {
-       
+.cabeçalho h1{
+    font-family: var(--fonte-primaria);
+
 }
 
 .cabeçalho__menu {
@@ -36,7 +37,7 @@ body{
 .cabeçalho__menu__link {
         font-family: var(--fonte-secundaria);
         font-size: 1.5rem;
-        font-weight 600;
+        font-weight: 600;
         color: var(--cor-terciaria);
         text-decoration: none;
 }
