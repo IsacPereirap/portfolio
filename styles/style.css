@@ -24,10 +24,11 @@ body{
 }
 
 .cabeçalho {
-        padding: 2% 0% 0% 15%;
+       
 }
 
 .cabeçalho__menu {
+    padding: 2% 0% 0% 15%;
         display: flex;
         gap: 5rem;   
     }
@@ -42,7 +43,7 @@ body{
     
     
 .apresentacao{
-    padding: 5% 15%;    
+    padding: 5% 2%;    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -147,12 +148,23 @@ background-color: var(--cor-hover);
 .apresentacao__imagem__home{
 width: 1000px;
 height: 1000px;
-padding: 100px 100px;
+padding: 100px 100px;   
 
 }
 
+.apresentacao__imagem__sobremim {
 
-@media (max-width: 1200px) {
+    width: 1000px;
+    height: 1000px;
+    padding: 10px 10px;
+}
+
+
+@media (max-width: 960px) 
+
+/* max width anterior é 1200px */
+
+{  
     .cabeçalho{
         padding: 10%;
     }
@@ -169,4 +181,6 @@ padding: 100px 100px;
     .apresentacao__conteudo{
         width: auto;
     }
+    
+    
 }
