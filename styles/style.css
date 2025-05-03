@@ -82,6 +82,22 @@ gap: 2rem;
 
 }
 
+.apresentacao__links__github{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border: 2px solid var(--cor-terciaria);
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration:none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
 .apresentacao__links__subtitulo {
     font-family: var(--fonte-primaria);
     font-size: 1.5rem;
